@@ -1,2 +1,9 @@
 PRIVATE.txt
 build/
+# ignore all .exe file
+*.exe    
+
+# except output.exe
+!output.exe
+
+**/configs
