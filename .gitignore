@@ -1,9 +1,16 @@
 PRIVATE.txt
 build/
 # ignore all .exe file
-*.exe    
-
-# except output.exe
-!output.exe
+*.exe 
 
 **/configs
+
+# any file starting temp
+temp* 
+
+# any file res.exe inside output directory
+output/**/res.exe
+
+**/local
+
+*config.txt
